@@ -1,0 +1,22 @@
+{
+  "name": "throw-env",
+  "version": "0.0.1",
+  "description": "Throw if environment variable cannot be taken.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "author": {
+    "name": "smicle",
+    "email": "bhhs1270026@gn.iwasaki.ac.jp"
+  },
+  "license": "ISC",
+  "keywords": [
+    "env",
+    "dotenv",
+    "throw"
+  ],
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
