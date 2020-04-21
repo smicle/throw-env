@@ -1,6 +1,6 @@
 {
   "name": "throw-env",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Throw if environment variable cannot be taken.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "author": {
     "name": "smicle",
-    "email": "bhhs1270026@gn.iwasaki.ac.jp"
+    "email": "bhhs1270026@gn.iwasaki.ac.jp",
+    "url": "https://github.com/smicle"
   },
   "license": "ISC",
   "repository": {
@@ -19,6 +20,9 @@
     "url": "https://github.com/smicle/throw-env/issues",
     "email" : "bhhs1270026@gn.iwasaki.ac.jp"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "env",
     "dotenv",
