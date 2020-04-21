@@ -11,6 +11,14 @@
     "email": "bhhs1270026@gn.iwasaki.ac.jp"
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smicle/throw-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smicle/throw-env/issues",
+    "email" : "bhhs1270026@gn.iwasaki.ac.jp"
+  },
   "keywords": [
     "env",
     "dotenv",
