@@ -1,6 +1,6 @@
 {
   "name": "throw-env",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Throw if environment variable cannot be taken.",
   "main": "dist/index.js",
   "scripts": {
