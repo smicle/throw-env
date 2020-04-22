@@ -4,7 +4,8 @@
   "description": "Throw if environment variable cannot be taken.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p ./tsconfig.json"
+    "build": "tsc -p ./tsconfig.json",
+    "test": "jest"
   },
   "author": {
     "name": "smicle",
@@ -18,7 +19,7 @@
   },
   "bugs": {
     "url": "https://github.com/smicle/throw-env/issues",
-    "email" : "bhhs1270026@gn.iwasaki.ac.jp"
+    "email": "bhhs1270026@gn.iwasaki.ac.jp"
   },
   "files": [
     "dist"
@@ -30,5 +31,10 @@
   ],
   "dependencies": {
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0"
   }
 }
