@@ -7,6 +7,9 @@ describe('Get the value of an environment variable', () => {
   test('Could not get value', () => {
     const key = 'value'
     const err = new Error(`${key} is not in environment variable.`)
-    expect(() => throwEnv(key)).toThrowError(err)
+    function env() {
+      throwEnv(key)
+    }
+    expect(env).toThrowError(err)
   })
 })
