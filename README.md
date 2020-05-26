@@ -13,14 +13,14 @@ npm install throw-env
 ```
 
 ## Usage
-### js
+### JavaScript
 ```js
 const throwEnv = require('throw-env').default
 
 const token = throwEnv('ACCESS_TOKEN')
 ```
 
-### ts
+### TypeScript
 ```ts
 import throwEnv from 'throw-env'
 
