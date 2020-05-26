@@ -26,3 +26,8 @@ import throwEnv from 'throw-env'
 
 const token: string = throwEnv('ACCESS_TOKEN')
 ```
+
+## Test
+```sh
+npm run test
+```
